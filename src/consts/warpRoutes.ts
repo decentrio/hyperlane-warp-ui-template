@@ -12,11 +12,11 @@ export const warpRouteConfigs: WarpCoreConfig = {
       name: 'Xion',
       symbol: 'XION',
       decimals: 6,
-      addressOrDenom: 'xion1q8f5ek03yys4uk07p9wq5ztyzf3757uw7d74hdl0440xth4ezzkqv8c6jl',
+      addressOrDenom: 'xion13fkxad69zppyjrgkwdhanlcepx2z98h7s68qzg7274rxjykd53qq6rdj20',
       collateralAddressOrDenom: 'uxion',
       connections: [
         {
-          token: 'ethereum|sepolia|0xdF6AA39C8a4A545A34339E6eE9f3f0fe12d4B680',
+          token: 'ethereum|sepolia|0x6844329E73076B52d085Fbf186cCEA2e2E2061F7',
         },
       ],
       logoURI: '/logos/decentrio.svg',
@@ -27,11 +27,11 @@ export const warpRouteConfigs: WarpCoreConfig = {
       name: 'Xion',
       symbol: 'XION',
       decimals: 6,
-      addressOrDenom: '0xdF6AA39C8a4A545A34339E6eE9f3f0fe12d4B680',
+      addressOrDenom: '0x6844329E73076B52d085Fbf186cCEA2e2E2061F7',
       connections: [
         {
           token:
-            'cosmos|xiontestnet1|xion1q8f5ek03yys4uk07p9wq5ztyzf3757uw7d74hdl0440xth4ezzkqv8c6jl',
+            'cosmos|xiontestnet1|xion13fkxad69zppyjrgkwdhanlcepx2z98h7s68qzg7274rxjykd53qq6rdj20',
         },
       ],
       logoURI: '/logos/decentrio.svg',

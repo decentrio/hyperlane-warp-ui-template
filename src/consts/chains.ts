@@ -55,11 +55,11 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address }> = {
       { http: 'https://xion-testnet-rpc.polkachu.com' },
       { http: 'https://testnet-xion-rpc.lavenderfive.com' },
     ],
-    grpcUrls: [{ http: 'https://grpc-xion.decentrio.ventures' }],
+    grpcUrls: [{ http: 'https://xion-testnet.grpc.decentrio.ventures' }],
     blockExplorers: [],
     logoURI: '/logos/decentrio.svg',
     transactionOverrides: {
-      gasPrice: '0.025',
+      gasPrice: '1',
       denom: 'uxion',
     },
   },
