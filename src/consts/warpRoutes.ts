@@ -22,7 +22,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
       logoURI: '/logos/decentrio.svg',
     },
     {
-      standard: TokenStandard.ERC20,
+      standard: TokenStandard.EvmHypSynthetic,
       chainName: 'sepolia',
       name: 'Xion',
       symbol: 'XION',
